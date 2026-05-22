@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Rohit Web Solutions",
@@ -19,6 +20,9 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+
+        {/* Vercel Speed Insights */}
+        <SpeedInsights />
       </body>
     </html>
   );
