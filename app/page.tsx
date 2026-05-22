@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
@@ -7,7 +6,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
 
-export default function Home(): JSX.Element {
+export default function Home() {
   return (
     <main>
       <HeroSection />
